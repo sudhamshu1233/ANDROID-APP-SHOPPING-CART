@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SHOP ON</string>
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+    <string name="title_activity_kitchen">kitchen</string>
+    <string name="title_activity_refrigerators">refrigerators</string>
+    <string name="title_activity_checkout">checkout</string>
+
+    <string name="notification_activity">NotificationView</string>
+    <string name="title_activity_proto">proto</string>
+
+</resources>

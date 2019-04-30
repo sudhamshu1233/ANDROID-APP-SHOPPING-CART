@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recycler_view">
+
+    <application
+        android:allowBackup="true"
+
+        android:icon="@drawable/main"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/main"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".proto"
+            android:label="@string/title_activity_proto"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".NotificationView"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".checkout3"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".checkout2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".checkout1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".electronics"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".television"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".refrigerators"
+            android:label="@string/title_activity_refrigerators"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kitchen"
+            android:label="@string/title_activity_kitchen"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".phones"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".signup"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".mycart"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".profile"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".nav_bar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".signin"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".shop"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".books"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".food"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".elect"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".clothes"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".title1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".start_activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
